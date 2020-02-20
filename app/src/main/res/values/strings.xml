@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tricks Fair</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Tricks Fair</string>
+    <string name="nav_header_subtitle">Version 1.0.4</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_notification">Notification</string>
+    <string name="slider_description">Main Big Images slide on top</string>
+    <string name="store_1_name">Store1</string>
+    <string name="store_3_name">Store3</string>
+    <string name="store_5_name">Store5</string>
+    <string name="store_7_name">Store7</string>
+    <string name="store_9_name">Store9</string>
+    <string name="store_2_name">Store2</string>
+    <string name="store_4_name">Store4</string>
+    <string name="store_6_name">Store6</string>
+    <string name="store_8_name">Store8</string>
+    <string name="store_10_name">Store10</string>
+    <string name="sub_title">Tricks</string>
+</resources>

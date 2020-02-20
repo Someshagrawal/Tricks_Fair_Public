@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/noti_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView
+        android:orientation="vertical"
+        android:id="@+id/noti_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#dedee5"
+        android:elevation="10dp"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/notification_background">
+            <ImageView
+                android:id="@+id/noti_imageView"
+                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:scaleType="fitCenter"
+                android:padding="8dp"
+                android:contentDescription="notificationIcon"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/notification_background">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noti_heading"
+                        android:textSize="15sp"
+                        android:textColor="#1e1f21"
+                        android:textStyle="bold"
+                        android:fontFamily="serif" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noti_info"
+                        android:textColor="#4b4e51"
+                        android:paddingRight="4dp"
+                        android:textSize="13.1sp"/>
+                    <TextView
+                        android:id="@+id/noti_date"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="#a5abaf"
+                        android:textSize="12dp"
+                        android:paddingBottom="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="15dp"/>
+</LinearLayout>
