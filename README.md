@@ -1,2 +1,2 @@
 # Tricks_Fair_public
-Public repository for my project Android Tricks Fair 
+Public repository for my Android project - Tricks Fair 
